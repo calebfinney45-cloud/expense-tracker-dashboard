@@ -9,10 +9,11 @@ export default function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="wallets" element={<Wallets />} />
+        <Route path="wallets" element={<Wallets />} /> 
         <Route path="transactions" element={<Transactions />} />
-        <Route path="categories" element={<div className="p-10 text-3xl font-black uppercase text-slate-300">Categories Coming Soon</div>} />
-        <Route path="profile" element={<div className="p-10 text-3xl font-black uppercase text-slate-300">Profile Coming Soon</div>} />
+        {/* The "Coming Soon" placeholders are fine for routing tests! */}
+        <Route path="categories" element={<div className="p-20 text-center text-3xl font-black text-slate-200 uppercase">Categories Coming Soon</div>} />
+        <Route path="profile" element={<div className="p-20 text-center text-3xl font-black text-slate-200 uppercase">Profile Coming Soon</div>} />
       </Route>
     </Routes>
   );

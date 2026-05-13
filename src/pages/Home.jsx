@@ -49,7 +49,7 @@ export default function Home() {
       <div className="flex justify-between items-center">
         <div>
           <h1 className="text-4xl font-black text-slate-900 tracking-tight">Dashboard</h1>
-          <p className="text-slate-500 font-medium mt-1">Welcome back, Sam.</p>
+          <p className="text-slate-500 font-medium mt-1">Welcome back, user.</p>
         </div>
         {/* 4. Update the onClick to change the state */}
         <button 
